@@ -1,16 +1,59 @@
-.Heading
+.Navbar
 {
-    gap: 15px;
-    text-align: center;
-    font-size:30px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 5px;
+}
+
+.Navbar-Icon
+{
+    font-size:20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Description
+.Navbar-Name
 {
-    gap:20px;
-    text-align: right;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 800;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+}
+
+.Navbar-Pages
+{
+    align-self: center;
+    padding-left: 640px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Description
+{   
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rounded-card
+{   
+    display: flex;
+    flex-direction: row;
+    padding-left: 42%;
+    border: solid 2px rgb(30, 25, 25);
+    border-radius: 10px;
+}
+
+.heading1
+{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.heading2
+{
+    color: rgba(255, 255, 255, 0.579);
+    font-size: 60px;
+    font-weight: 800;
 }
