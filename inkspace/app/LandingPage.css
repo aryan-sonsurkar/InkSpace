@@ -2,13 +2,14 @@
 {
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 20px;
     gap: 5px;
 }
 
 .Navbar-Icon
 {
     font-size:20px;
+    font-weight: 800;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -22,9 +23,13 @@
 .Navbar-Pages
 {
     align-self: center;
-    padding-left: 640px;
+    justify-content: center;
     gap: 20px;
     display: flex;
+    flex: 1;
+    padding-left: 15px;
+    justify-content: space-between;
+    font-weight: 500;
     flex-direction: row;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -57,3 +62,17 @@
     font-size: 60px;
     font-weight: 800;
 }
+
+.Buttons
+{
+    color: black;
+    background-color: white;
+    width: max-content;
+    justify-content: flex-start;
+    border: 3px black;
+    border-radius: 10px;
+    justify-content: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
