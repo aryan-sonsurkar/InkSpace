@@ -63,16 +63,36 @@
     font-weight: 800;
 }
 
-.Buttons
-{
-    color: black;
-    background-color: white;
-    width: max-content;
-    justify-content: flex-start;
-    border: 3px black;
-    border-radius: 10px;
+.Buttons {
+    display: flex;
     justify-content: center;
-    flex: 1;
-    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 30px;
 }
 
+.PrimaryButton,
+.SecondaryButton {
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.PrimaryButton {
+    background: white;
+    color: black;
+}
+
+.SecondaryButton {
+    border: 1px solid #444;
+    color: white;
+}
+
+.dashboard-img {
+    display: block;
+    margin: 60px auto 0;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+}

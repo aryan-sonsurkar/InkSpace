@@ -1,5 +1,6 @@
 import "./LandingPage.css"
 import { NotebookPen , Star} from "lucide-react";
+import Image from 'next/image';
 
 export default function LandingPage(){
 return(
@@ -34,9 +35,22 @@ return(
         <h1 className="heading2">Remember.</h1>
         <p>InkSpace is a notebook where you can save or write your notes.<br></br>It's purely built for students, founders and business owners<br></br> to keep track of their records</p>
     <section className="Buttons">
-        <button><a href="/register">Get Started</a></button>
-        <button><a href="/about">About</a></button>
+        <a href="/register" className="PrimaryButton">
+            Get Started
+        </a>
+
+        <a href="/about" className="SecondaryButton">
+            About
+        </a>
     </section>
+    
+    <Image className="dashboard-img"
+        src="/inkspace-dashboard.png"
+        alt="InkSpace dashboard"
+        width={600}
+        height={400}
+        priority
+    />
     </section>
     </div>
 );
