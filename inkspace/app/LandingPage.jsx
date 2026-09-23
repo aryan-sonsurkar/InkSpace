@@ -12,7 +12,7 @@ return(
         <ul className="Navbar-Pages">
             <li><a href="/features">Features</a></li>
         </ul>
-        <ul className="Navbar-Pages">
+        <ul className="Navbar-Pages"> 
             <li><a href="/about">About</a></li>
         </ul>
         <ul className="Navbar-Pages">
