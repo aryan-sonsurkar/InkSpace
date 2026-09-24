@@ -52,6 +52,25 @@ return(
         priority
     />
     </section>
+    <section className="Features">
+        <h1 className="Features-Heading">Features</h1>
+        <div className="Features-Container">
+            <p>Feature 1: Intuitive note-taking experience</p>
+            <p>Feature 2: Seamless organization and categorization</p>
+            <p>Feature 3: Cross-platform accessibility</p>
+        </div>
+    </section>
+    <section className="About">
+        <h1 className="About-Heading">About InkSpace</h1>
+        <p>InkSpace is a web application designed to help students, founders, and business owners organize their thoughts and ideas effectively. With a user-friendly interface and powerful features, InkSpace allows users to create, manage, and access their notes from anywhere.</p>
+    </section>
+    <section className="Footer">
+        <p>@2026 Inkspace. All rights reserved.</p>
+        <p>Made for students, founders, and business owners</p>
+        <p>Contact: aryansonsurkar87@gmail.com</p>
+        <p>Follow me on github: https://github.com/aryan-sonsurkar , LinkedIn: https://www.linkedin.com/in/aryan-sonsurkar, Instagram: https://www.instagram.com/yaaa_its_aryxn    </p>
+        <p><a href="/privacy">Privacy Policy</a></p>
+    </section>
     </div>
 );
 }

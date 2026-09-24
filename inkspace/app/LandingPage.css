@@ -92,7 +92,29 @@
     display: block;
     margin: 60px auto 0;
     width: 80%;
-    max-width: 600px;
+    max-width: 800px;
     height: auto;
     border-radius: 20px;
+}
+
+.Features {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.About {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
